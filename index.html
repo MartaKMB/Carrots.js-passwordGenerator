@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>password generator</h1>
+            <h2>keep your online accounts safe!</h2>
+        </header>
+
+        <main>
+
+            <section class="introduction_section">
+                <div>please, use a password that has at least 6 characters</div>
+                <div>this programm generate password with at least one number, one uppercase letter and one lowercase letter</div>
+            </section>
+
+            <section class="form_section">
+                <label class="symbol_label">
+              do you want some symbols (e.g. @#$_%)?
+              <input type="checkbox" id="symbols_checkbox">
+            </label>
+
+                <label class="length_label">
+              password length:
+              <input type="text" id="user_input" placeholder="how many characters?">
+            </label>
+
+                <button id="pass_btn" class="generate_btn">generate password</button>
+            </section>
+
+            <section class="result_messages">
+                <div id="message" class="messages_div"></div>
+
+                <div id="result" class="result_div">your new password:
+                    <span id="password"></span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>app designed by: <a href="https://www.linkedin.com/in/marta-mucha-balcerek-99012113b/" target="_blank">Marta Mucha-Balcerek</a> &copy; 2017</div>
+
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

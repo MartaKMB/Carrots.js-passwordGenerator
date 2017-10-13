@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 10px; }
+
+body { width: 80vw; height: 100vh; padding: 4rem; font-family: 'Lato'; display: -ms- flex; display: flex; align-content: center; justify-content: center; min-width: 100vw; min-height: 100vh; }
+
+header { width: 100%; display: -ms- flex; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; background-color: #EEEEEE; padding-bottom: 2rem; background-clip: border-box; border-radius: .25rem; }
+header h1 { flex: 100%; padding: 2rem; font-size: 4rem; text-align: center; }
+header h2 { flex: 100%; font-size: 2.4rem; color: #337AB7; text-align: center; }
+
+main { flex: 100%; width: inherit; display: -ms- flex; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; }
+main .introduction_section { flex-basis: 100%; display: -ms- flex; display: flex; justify-content: space-between; align-items: center; text-align: center; }
+main .introduction_section div { width: 50%; align-self: stretch; padding: 2rem; margin: 1rem; font-size: 1.6rem; background-clip: border-box; border: 1px solid rgba(0, 0, 0, 0.125); border-radius: .25rem; }
+main .form_section { flex-basis: 100%; display: -ms- flex; display: flex; flex-direction: column; justify-content: space-around; align-items: center; text-align: center; font-size: 1.6rem; background-color: #EEEEEE; padding: 2.2rem; background-clip: border-box; border-radius: .25rem; }
+main .form_section .symbol_label { flex: 100%; padding: 1rem; }
+main .form_section .symbol_label input { margin: 1.2rem; }
+main .form_section .length_label { flex: 50%; padding: 2rem; }
+main .form_section .length_label input { text-align: center; padding: .4rem; margin: 1.2rem; }
+main .form_section .generate_btn { flex: 50%; font-size: 2.2rem; padding: 1.2rem; color: #fefefe; background-color: #337AB7; background-clip: border-box; border: 1px solid rgba(0, 0, 0, 0.125); border-radius: .25rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+main .form_section .generate_btn:hover { background-color: #558bc8; box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19); }
+main .result_messages { flex-basis: 100%; display: -ms- flex; display: flex; flex-direction: column; justify-content: space-around; align-items: center; text-align: center; font-size: 1.8rem; margin: 1.4rem; background-clip: border-box; border: 1px solid rgba(0, 0, 0, 0.125); border-radius: .25rem; }
+main .result_messages .messages_div { flex: 100%; padding: 1rem; margin: .8rem; background-clip: border-box; border-radius: .25rem; }
+main .result_messages .result_div { flex: 100%; padding: 2rem; font-size: 2.2rem; margin: 1rem; display: -ms- flex; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+main .result_messages .result_div span { padding: 1.2rem; margin: .6rem; background-clip: border-box; border-radius: .25rem; font-weight: 700; font-size: 4rem; }
+
+footer { flex: 100%; width: inherit; text-align: center; padding: 1rem; font-size: 1.4rem; margin: 1rem; }
+footer a { color: #337AB7; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+/*# sourceMappingURL=layout.css.map */
